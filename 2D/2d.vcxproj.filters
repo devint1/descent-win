@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CURSOR.C">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TMAPBITS.C">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TPOLY.C">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BOX.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CANVAS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CIRCLE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DISC.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EFFECTS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FDRAW.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FONT.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GPIXEL.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GR.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IBITBLT.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="INV_CMAP.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LINE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MEDIAN.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MSPEED.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PALETTE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PCX.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PIXEL.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POLY.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RECT.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RLE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ROLLER.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SCALE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SCANLINE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TESTG.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VESALIB.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VESATEST.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BITBLT.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BITMAP.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MODEXC.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LINEARC.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MODEX.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LBITBLT.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LINEAR.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VESA.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CLIP.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EFFECT2D.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GR.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GRDEF.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IBITBLT.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PALETTE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PCX.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PHHANDLR.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RLE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VESALIB.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

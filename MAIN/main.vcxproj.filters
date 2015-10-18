@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="INFERNO.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GAUGES.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SCORES.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJECT.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LASER.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PHYSICS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BM.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MENU.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GAMESAVE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SWITCH.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EFFECTS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TEXMERGE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="POLYOBJ.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GAMEMINE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FIREBALL.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HOSTAGE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="POWERUP.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FUELCEN.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DIGI.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RENDER.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HASH.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PIGGY.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ARGS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GAMESEG.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WALL.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COLLIDE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LIGHTING.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ROBOT.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MORPH.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VCLIP.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WEAPON.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FVI.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NEWDEMO.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TITLES.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VFX.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GAMESEQ.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CONTROLS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AUTOMAP.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TEXT.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NETWORK.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NEWMENU.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NETMISC.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VICTOR.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GAMEFONT.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JOYDEFS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PLAYSAVE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ENDLEVEL.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TERRAIN.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KCONFIG.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MODEM.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MULTI.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CNTRLCEN.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CREDITS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CONFIG.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KMATRIX.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PAGING.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MISSION.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IGLASSES.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SONGS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="STATE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MULTIBOT.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NOCOMLIB.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SLEW.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMP.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="INFERNO.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GAUGES.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MGLOBAL.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SCORES.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJECT.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LASER.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PHYSICS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BM.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MENU.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GAMESAVE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SWITCH.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EFFECTS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TEXMERGE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POLYOBJ.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GAMEMINE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FIREBALL.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AIPATH.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HOSTAGE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POWERUP.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FUELCEN.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RENDER.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HASH.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PIGGY.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ARGS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GAMESEG.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WALL.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COLLIDE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LIGHTING.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ROBOT.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MORPH.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VCLIP.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WEAPON.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FVI.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NEWDEMO.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TITLES.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VFX.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GAMESEQ.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CONTROLS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AUTOMAP.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TEXT.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NETWORK.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NEWMENU.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NETMISC.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VICTOR.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GAMEFONT.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JOYDEFS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PLAYSAVE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ENDLEVEL.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TERRAIN.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KCONFIG.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MODEM.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MULTI.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CNTRLCEN.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CREDITS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CONFIG.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KMATRIX.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PAGING.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MISSION.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IGLASSES.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SONGS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BMREAD.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="STATE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MULTIBOT.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NOCOMLIB.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SLEW.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DUMPMINE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DIGI.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMP.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

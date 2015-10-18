@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\2D\2d.vcxproj">
+      <Project>{f7b28818-8a08-4add-b115-f348af919192}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\3D\3d.vcxproj">
+      <Project>{5c821815-e3e4-4308-98a5-896bb3f71d5b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\BIOS\io.vcxproj">
+      <Project>{a6c9c331-5f87-4943-9f93-b52a76e25a17}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\CFILE\cfile.vcxproj">
+      <Project>{b520a039-d475-4bfe-89f0-3053f83911d8}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\FIX\fix.vcxproj">
+      <Project>{4041f86e-68b0-474b-b8e9-89ef789e3805}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\IFF\iff.vcxproj">
+      <Project>{21257554-4aa3-43c8-ad56-f7436b2e2702}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\MEM\mem.vcxproj">
+      <Project>{b7610bad-4e08-4b44-b892-529404c0f0df}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\MISC\misc.vcxproj">
+      <Project>{227e5f8d-9f40-422a-be53-e71402c9895e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\TEXMAP\texmap.vcxproj">
+      <Project>{85f2f37a-5488-4186-985b-c1dd7e9dc200}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\UI\ui.vcxproj">
+      <Project>{73c68e32-0655-4809-b77e-f4b4274785f1}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\VECMAT\vecmat.vcxproj">
+      <Project>{50644f36-5a55-45e0-9005-1d2d43dc8db5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="EDITOR\editor.vcxproj">
+      <Project>{d4c98dfc-b7e3-454a-8eb9-cb9720edd657}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AI.H" />
+    <ClInclude Include="ARGS.H" />
+    <ClInclude Include="AUTOMAP.H" />
+    <ClInclude Include="BM.H" />
+    <ClInclude Include="CNTRLCEN.H" />
+    <ClInclude Include="COLLIDE.H" />
+    <ClInclude Include="CONFIG.H" />
+    <ClInclude Include="CONTROLS.H" />
+    <ClInclude Include="CREDITS.H" />
+    <ClInclude Include="DIGI.H" />
+    <ClInclude Include="EFFECTS.H" />
+    <ClInclude Include="ENDLEVEL.H" />
+    <ClInclude Include="FIREBALL.H" />
+    <ClInclude Include="FUELCEN.H" />
+    <ClInclude Include="FVI.H" />
+    <ClInclude Include="GAME.H" />
+    <ClInclude Include="GAMEFONT.H" />
+    <ClInclude Include="GAMEMINE.H" />
+    <ClInclude Include="GAMESAVE.H" />
+    <ClInclude Include="GAMESEG.H" />
+    <ClInclude Include="GAMESEQ.H" />
+    <ClInclude Include="GAUGES.H" />
+    <ClInclude Include="HASH.H" />
+    <ClInclude Include="HMP.H" />
+    <ClInclude Include="HOSTAGE.H" />
+    <ClInclude Include="IGLASSES.H" />
+    <ClInclude Include="INFERNO.H" />
+    <ClInclude Include="JOYDEFS.H" />
+    <ClInclude Include="KCONFIG.H" />
+    <ClInclude Include="KMATRIX.H" />
+    <ClInclude Include="LASER.H" />
+    <ClInclude Include="LIGHTING.H" />
+    <ClInclude Include="MENU.H" />
+    <ClInclude Include="MISSION.H" />
+    <ClInclude Include="MODEM.H" />
+    <ClInclude Include="MORPH.H" />
+    <ClInclude Include="MULTI.H" />
+    <ClInclude Include="MULTIBOT.H" />
+    <ClInclude Include="NETMISC.H" />
+    <ClInclude Include="NETWORK.H" />
+    <ClInclude Include="NEWDEMO.H" />
+    <ClInclude Include="NEWMENU.H" />
+    <ClInclude Include="NOCOMLIB.H" />
+    <ClInclude Include="OBJECT.H" />
+    <ClInclude Include="PAGING.H" />
+    <ClInclude Include="PHYSICS.H" />
+    <ClInclude Include="PIGGY.H" />
+    <ClInclude Include="PLAYSAVE.H" />
+    <ClInclude Include="POLYOBJ.H" />
+    <ClInclude Include="POWERUP.H" />
+    <ClInclude Include="RENDER.H" />
+    <ClInclude Include="ROBOT.H" />
+    <ClInclude Include="SCORES.H" />
+    <ClInclude Include="SLEW.H" />
+    <ClInclude Include="SONGS.H" />
+    <ClInclude Include="STATE.H" />
+    <ClInclude Include="SWITCH.H" />
+    <ClInclude Include="TERRAIN.H" />
+    <ClInclude Include="TEXMERGE.H" />
+    <ClInclude Include="TEXT.H" />
+    <ClInclude Include="TITLES.H" />
+    <ClInclude Include="VCLIP.H" />
+    <ClInclude Include="VFX.H" />
+    <ClInclude Include="VICTOR.H" />
+    <ClInclude Include="WALL.H" />
+    <ClInclude Include="WEAPON.H" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AI.C" />
+    <ClCompile Include="AIPATH.C" />
+    <ClCompile Include="ARGS.C" />
+    <ClCompile Include="AUTOMAP.C" />
+    <ClCompile Include="BM.C" />
+    <ClCompile Include="BMREAD.C" />
+    <ClCompile Include="CNTRLCEN.C" />
+    <ClCompile Include="COLLIDE.C" />
+    <ClCompile Include="CONFIG.C" />
+    <ClCompile Include="CONTROLS.C" />
+    <ClCompile Include="CREDITS.C" />
+    <ClCompile Include="DIGI.C" />
+    <ClCompile Include="DUMPMINE.C" />
+    <ClCompile Include="EFFECTS.C" />
+    <ClCompile Include="ENDLEVEL.C" />
+    <ClCompile Include="FIREBALL.C" />
+    <ClCompile Include="FUELCEN.C" />
+    <ClCompile Include="FVI.C" />
+    <ClCompile Include="GAME.C" />
+    <ClCompile Include="GAMEFONT.C" />
+    <ClCompile Include="GAMEMINE.C" />
+    <ClCompile Include="GAMESAVE.C" />
+    <ClCompile Include="GAMESEG.C" />
+    <ClCompile Include="GAMESEQ.C" />
+    <ClCompile Include="GAUGES.C" />
+    <ClCompile Include="HASH.C" />
+    <ClCompile Include="HMP.C" />
+    <ClCompile Include="HOSTAGE.C" />
+    <ClCompile Include="HUD.C" />
+    <ClCompile Include="IGLASSES.C" />
+    <ClCompile Include="INFERNO.C" />
+    <ClCompile Include="JOYDEFS.C" />
+    <ClCompile Include="KCONFIG.C" />
+    <ClCompile Include="KMATRIX.C" />
+    <ClCompile Include="LASER.C" />
+    <ClCompile Include="LIGHTING.C" />
+    <ClCompile Include="MENU.C" />
+    <ClCompile Include="MGLOBAL.C" />
+    <ClCompile Include="MISSION.C" />
+    <ClCompile Include="MODEM.C" />
+    <ClCompile Include="MORPH.C" />
+    <ClCompile Include="MULTI.C" />
+    <ClCompile Include="MULTIBOT.C" />
+    <ClCompile Include="NETMISC.C" />
+    <ClCompile Include="NETWORK.C" />
+    <ClCompile Include="NEWDEMO.C" />
+    <ClCompile Include="NEWMENU.C" />
+    <ClCompile Include="NOCOMLIB.C" />
+    <ClCompile Include="OBJECT.C" />
+    <ClCompile Include="PAGING.C" />
+    <ClCompile Include="PHYSICS.C" />
+    <ClCompile Include="PIGGY.C" />
+    <ClCompile Include="PLAYSAVE.C" />
+    <ClCompile Include="POLYOBJ.C" />
+    <ClCompile Include="POWERUP.C" />
+    <ClCompile Include="RENDER.C" />
+    <ClCompile Include="ROBOT.C" />
+    <ClCompile Include="SCORES.C" />
+    <ClCompile Include="SLEW.C" />
+    <ClCompile Include="SONGS.C" />
+    <ClCompile Include="STATE.C" />
+    <ClCompile Include="SWITCH.C" />
+    <ClCompile Include="TERRAIN.C" />
+    <ClCompile Include="TEXMERGE.C" />
+    <ClCompile Include="TEXT.C" />
+    <ClCompile Include="TITLES.C" />
+    <ClCompile Include="VCLIP.C" />
+    <ClCompile Include="VFX.C" />
+    <ClCompile Include="VICTOR.C" />
+    <ClCompile Include="WALL.C" />
+    <ClCompile Include="WEAPON.C" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7194C45B-C025-4BD6-9621-B7219D3BAB41}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>main</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\LIB;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\LIB;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\LIB;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\LIB;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>TABLE_CREATION;NETWORK;</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions>/ENTRY:mainCRTStartup %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>DSound.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>TABLE_CREATION;NETWORK;</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions>/ENTRY:mainCRTStartup %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>DSound.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NETWORK;RELEASE;NDEBUG</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>DSound.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/ENTRY:mainCRTStartup %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NETWORK;RELEASE;NDEBUG</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>DSound.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/ENTRY:mainCRTStartup %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

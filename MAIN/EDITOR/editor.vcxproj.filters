@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MED.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EINIT.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EGLOBAL.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MINE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CURVES.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KCURVE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KHELP.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KSEGSEL.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KBUILD.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KVIEW.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KMINE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SEGUVS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KSEGSIZE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KSEGMOVE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KTMAP.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KFUNCS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AUTOSAVE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GROUP.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TEXTURE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FIXSEG.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EOBJECT.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ELIGHT.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TEXPAGE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJPAGE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MEDMISC.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MEDSEL.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KGAME.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="INFO.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MEDWALL.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESWITCH.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MEDROBOT.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MEDDRAW.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SEGMENT.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EHOSTAGE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CENTERS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNC.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EDITOR.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MEDMISC.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MEDSEL.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KFUNCS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INFO.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MEDWALL.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESWITCH.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EOBJECT.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MEDROBOT.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MEDDRAW.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EHOSTAGE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CENTERS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KDEFS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

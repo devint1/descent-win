@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UI.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FUNC.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UI.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOUSE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WINDOW.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDRAW.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BUTTON.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GADGET.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LISTBOX.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MESSAGE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="POPUP.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SCROLL.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RADIO.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CHECKBOX.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="INPUTBOX.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="USERBOX.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MENU.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HARDERR.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FILE.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KEYTRAP.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ICON.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KEYPRESS.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MENUBAR.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KEYPAD.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
